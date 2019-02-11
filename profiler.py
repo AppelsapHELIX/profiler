@@ -115,6 +115,7 @@ database = {"Anne-Sophie Bodelier":"Anne-Sophie Bodelier|Female|Unknown|Heerlen,
             "Sam Bodelier":"Sam Bodelier|Female|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown",
             "Donaya Haffner":"Donaya Haffner|Female|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown",
             "Donya Dursa":"Donya Dursa|Female|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown",
+            "Twitchell Patinama":"Twitchell Patinama|Female|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown|Unknown",
             "Zakaryae Talhaoui":"Zakaryae Talhaoui|Male|Unknown|Heerlen, Netherlands|Dutch, Morrocan|Unknown|Lamijae Talhaoui|NL - Limburg - Heerlen|Unknown|Unknown|+31617141047"}
 
 while True:
@@ -126,6 +127,9 @@ while True:
     print(colored(" | |   | | | (_) | | | | |  __/ |   ", "white", attrs=['bold']))
     print(colored(" |_|   |_|  \___/|_| |_|_|\___|_|   ", "red", attrs=['bold']))
     print("")
+    print(colored("[###]", "red", attrs=['bold']) + colored("Welcome to the HELIX Profiler", "white", attrs=['bold']) + colored("[###]", "red", attrs=['bold']))
+    print(colored("[###]", "red", attrs=['bold']) + colored("Version: ", "white", attrs=['bold']) + colored("1.04", "red", attrs=['bold']) + colored("[###]", "red", attrs=['bold']))
+    print("")
     print(colored("Choose an option:", "white", attrs=['bold']))
     print("")
     print(colored("[", "red", attrs=['bold']) + colored("1", "white", attrs=['bold']) + colored("]", "red", attrs=['bold']) + " " + colored("A-Z Person List", "white", attrs=['bold']))
@@ -135,7 +139,7 @@ while True:
     print("")
     if menu == "1":
         print(colored("A", "white", attrs=['bold']))
-        print(colored("Anne-Sophie Bodelier\n" + "Ania Polaczek\n" + "Anouck Berger\n" + "Anne Schlechtriem\n" + "Alicia Alawerdjan\n" + "Anwar Talhaoui\n" + "Andy Bik\n" + "Anwar Talhaoui\n" + "Aypril Bosch\n" + "Anwar Talhaoui\n" + "Alexander Mulder\n" + "Andrea Klein\n", "red", attrs=['bold']))
+        print(colored("Anne-Sophie Bodelier\n" + "Ania Polaczek\n" + "Anouck Berger\n" + "Anne Schlechtriem\n" + "Alicia Alawerdjan\n" + "Anwar Talhaoui\n" + "Andy Bik\n" + "Aypril Bosch\n" + "Alexander Mulder\n" + "Andrea Klein\n", "red", attrs=['bold']))
         print(colored("B", "white", attrs=['bold']))
         print(colored("Bas Schlechtriem\n" + "Bas Harsin\n" + "Bishoy Rezk\n", "red", attrs=['bold']))
         print(colored("C", "white", attrs=['bold']))
@@ -173,7 +177,7 @@ while True:
         print(colored("S", "white", attrs=['bold']))
         print(colored("Sietske Vijgen\n" + "Saydou Bangura\n" + "Sheryn Hassouna\n" + "Sylvanah Coelingh\n" + "Sidney Quaiser\n" + "Selisa Dogru\n" + "Sterre Hensgens\n" + "Sander Bremen\n" + "Sam Bodelier\n" + "Sydney Weegels\n" + "Silas Danullis\n", "red", attrs=['bold']))
         print(colored("T", "white", attrs=['bold']))
-        print(colored("Tahne Brendt\n" + "Teun Vinken\n" + "Tom Erens\n", "red", attrs=['bold']))
+        print(colored("Tahne Brendt\n" + "Teun Vinken\n" + "Tom Erens\n" + "Twitchell Patinama\n", "red", attrs=['bold']))
         print(colored("U", "white", attrs=['bold']))
         print(colored("Unavailable\n", "red", attrs=['bold']))
         print(colored("V", "white", attrs=['bold']))
